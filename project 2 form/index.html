@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM </title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+      <div class="apply_box">
+    
+        <h1> JOB APPLCATION FORM </h1>
+        <form action="">
+            <div class="apply_form">
+       <div class="form_container">
+         <label for="name"> First Name :</label>
+        <input type="text" id="name" placeholder=" First name"> <br><br>
+       </div>
+       <div class="form_container">
+        <label for="name"> Last Name :</label>
+       <input type="text" id="name" placeholder="last name"> <br><br>
+      </div>
+       
+       <div class="form_container">
+        <label for="mail"> Email id :</label>
+        <input type="email" id="mail" placeholder="xyz@gmail.com"><br><br>
+       </div>
+       <div class="form_container">
+        <label for="pass"> Password :</label>
+        <input type="password" id="pass" placeholder="password"><br><br>
+       </div>
+        <div class="form_container">
+            <label for="number"> Mobile No :</label>
+            <input type="number" id="number" placeholder="1234567890"><br><br>
+        </div>
+     
+       <div class="form_container"> <label for="Dob">D.O.B :</label>
+        <input type="date" id="Dob" placeholder="dd/mm/yy"><br><br>
+       </div>
+
+        <div class="form_container">
+            <label for="datetime">Date & time :</label>
+            <input type="datetime-local" id="datetime"><br><br>
+        </div>
+       <div class="form_container">
+            <p>Gender</p>
+            <input type="text" placeholder="M /F/Other">
+        </div>
+        
+         
+        <div class="form_container"> 
+            <label for="url">Portfolyo link</label>
+            <input  id=" url" type="url" placeholder="paste your url or link" ><br><br>
+            </div>
+            <div class="form_container"> 
+                <label for="file">Paste CV</label>
+                <input  id=" file" type="file" placeholder="choose file" ><br><br>
+                </div>
+                <div class="form_container">
+                    <label for="job_role"> Job Role</label>
+                    <select id="job_role" name="job_role">
+                       <option value=""> Select Job Role</option>
+                       <option value="Frontend "> Frontend Devloper</option>
+                       <option value="Backend"> Backend Devloper</option>
+                       <option value="Full Stack"> Full Stack Devloper</option>
+                       <option value=" UI UX"> UI UX Designer</option>
+                    
+                       </select>
+                </div>
+                <div class="form_container">
+                    <label for="address"> Address</label>
+                    <textarea id="address" name="address" row="4" cols="50" placeholder="Enter Address"></textarea>
+                </div>
+       <div class="form_container">
+            <input id="button" type="reset" value="reset form">
+       </div>
+        <div class="form_container">
+            <input id="button" type="submit" value="submit form">
+        </div>
+    </div>
+    </form> 
+      </div>
+   </div>
+</body>
+</html>
